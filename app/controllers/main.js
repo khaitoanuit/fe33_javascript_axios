@@ -3,6 +3,10 @@ var nguoiDungService = new NguoiDungService();
 
 getListUser();
 
+function themNguoiDungTest(){
+    console.log("Them Nguoi Dung");
+}
+
 getELE("btnThemNguoiDung").addEventListener("click", function () {
     document.getElementsByClassName("modal-title")[0].innerHTML = "Thêm người dùng";
     var footer = `
